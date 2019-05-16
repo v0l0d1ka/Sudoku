@@ -46,6 +46,7 @@ public class SudokuGenerator {
                     Available.get(currentPos).remove(i);
 
                     currentPos++;
+
                 }else{
                     Available.get(currentPos).remove(i);
                 }
